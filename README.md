@@ -10,7 +10,6 @@ features:<br/>
 It shows the blog of current selected blog.<br/>
 * New blog screen is the screen where we create an new blog. we can post using post icon and we can navigate into home using home icon.<br/>
 
-<!-- Github: https://github.com/Ambiliambu/eqaimblog -->
 
 Technologyies used:<br/>
 Node.js, Express.js, React.js, Mongoose, JSX, cloudinary,Material UI, MongoDB <br/>
@@ -35,9 +34,9 @@ Node.js, Express.js, React.js, Mongoose, JSX, cloudinary,Material UI, MongoDB <b
 
 To get started you can simply clone this eqaimblog repository and  install the dependencies.<br/>
 
-#### Clone the brilliant using git:
+#### Clone the eqaimblog using git:
 
-`git clone https://github.com/Ambiliambu/brilliant.git`</h6><br/>
+`git clone https://github.com/Ambiliambu/eqaimblog.git`</h6><br/>
 
 #### Change directory
 
