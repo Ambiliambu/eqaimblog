@@ -35,7 +35,7 @@ const createBlog=async(req,res)=>{
 
 const getBlogs=async(req,res)=>{
  try {
-    const blogs=await Blog.find()
+    const blogs=await Blog.find().sort({_id:-1})
     // console.log("pp",blog);
     res.status(200).json(blogs)
  } catch (error) {

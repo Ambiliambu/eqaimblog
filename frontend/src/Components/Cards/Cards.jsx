@@ -42,7 +42,6 @@ function Cards(props) {
 
  
     </div>
-    {/* )} */}
     </>
   )
 }

@@ -10,8 +10,11 @@ import './NewBlog.css'
 import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import axios from 'axios'
 
+
+
 function NewBlog() {
  const navigate=useNavigate()
+
   const [editorState, setEditorState] = useState(() =>
     EditorState.createEmpty()
     );
@@ -57,7 +60,9 @@ const publishBlog=async()=>{
 <div className='childdiv'>
     
     <IconButton className=''  sx={{ float:"left" }}>
-      <Link to='' onClick={publishBlog} ><TaskRoundedIcon className='iconaprv' fontSize='large'   /></Link>
+      <Link to='' 
+      onClick={publishBlog} 
+      ><TaskRoundedIcon className='iconaprv' fontSize='large'   /></Link>
             
     </IconButton>
     </div>
@@ -75,11 +80,11 @@ editorClassName="editor-class"
 onEditorStateChange={updateTextDescription}
 
 
-
 />
 
 
     </div>
+   
     </div>
     </>
     
